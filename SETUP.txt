@@ -1,0 +1,5 @@
+dotnet = options
+dotnet --into = .net version installed
+dotnet new -l = list of templates available
+dotnet new sln = solution
+dotnet new webapi -o API (-o = output directory, API = name) 

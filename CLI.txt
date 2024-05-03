@@ -1,0 +1,10 @@
+dotnet = options
+dotnet --into = .net version installed
+dotnet new -l = list of templates available
+dotnet new sln = solution
+dotnet new webapi -o API (-o = output directory, API = name) 
+dotnet sln add API = adding api to solution
+dotnet run or dotnet watch run
+dotnet ef migrations add InitialCreate -o Data/Migrations
+dotnet ef Database update
+dotnet ef database drop
